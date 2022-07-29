@@ -12,3 +12,7 @@ print("Searching Google Maps for {}".format(placeName))
 time.sleep(1)
 
 results = Geocoder.geocode(placeName)
+
+for result in results:
+  
+  print(result)
